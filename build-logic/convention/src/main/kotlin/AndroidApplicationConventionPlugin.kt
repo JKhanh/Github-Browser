@@ -33,7 +33,7 @@ class AndroidApplicationConventionPlugin : Plugin<Project> {
                 apply("com.android.application")
                 apply("org.jetbrains.kotlin.android")
                 apply("githubbrowser.android.lint")
-//                apply("com.dropbox.dependency-guard")
+                apply("com.dropbox.dependency-guard")
             }
 
             extensions.configure<ApplicationExtension> {
